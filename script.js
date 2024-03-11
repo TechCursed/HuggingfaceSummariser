@@ -44,7 +44,7 @@ async function query(data) {
     const response = await fetch(
         "https://api-inference.huggingface.co/models/facebook/bart-large-cnn",
         {
-            headers: { Authorization: "Bearer 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" },
+            headers: { Authorization: "Bearer accesstokenhere" },
             method: "POST",
             body: JSON.stringify(data),
         }
